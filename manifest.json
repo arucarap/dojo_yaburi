@@ -1,0 +1,23 @@
+{
+  "name": "DojoYaburi",
+  "description" : "情報処理技術者/FP試験過去問道場のアドブロック対策を無効化します。",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts":[
+      {
+      "matches":[
+        "*://www.itpassportsiken.com/*", 
+        "*://www.sg-siken.com/*",
+        "*://www.fe-siken.com/*",
+        "*://www.ap-siken.com/*",
+        "*://www.db-siken.com/*",
+        "*://www.nw-siken.com/*",
+        "*://www.sc-siken.com/*",
+        "*://fp3-siken.com/*",
+        "*://fp2-siken.com/*",
+        "*://fp1-siken.com/*"
+      ],
+      "js":["dojo_yaburi.js"]
+      }
+  ]
+}
