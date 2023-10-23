@@ -1,6 +1,6 @@
 var coverClassName = '';
 const hostname = new URL(window.location.href).hostname;
-if(/fp.-siken/.test(hostname)) {
+if(/(fp.|chintaikanrishi)-siken/.test(hostname)) {
   coverClassName = 'kaisetsu';
 } else {
   coverClassName = 'ansbg';

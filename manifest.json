@@ -1,7 +1,7 @@
 {
   "name": "DojoYaburi",
-  "description" : "情報処理技術者/FP試験過去問道場のアドブロック対策を無効化します。",
-  "version": "1.0.1",
+  "description" : "情報処理技術者/FP/賃貸管理士試験過去問道場のアドブロック対策を無効化します。",
+  "version": "1.0.2",
   "manifest_version": 3,
   "content_scripts":[
     {
@@ -13,6 +13,8 @@
         "*://www.db-siken.com/*",
         "*://www.nw-siken.com/*",
         "*://www.sc-siken.com/*",
+        "*://www.pm-siken.com/*",
+        "*://chintaikanrishi-siken.com/*",
         "*://fp3-siken.com/*",
         "*://fp2-siken.com/*",
         "*://fp1-siken.com/*"
